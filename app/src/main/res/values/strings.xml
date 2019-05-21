@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DEUTournament</string>
+    <string name="aboutButton">ABOUT APP</string>
+    <string name="competitionsButton">MAKE COMPETITIONS</string>
+    <string name="infoText" />
+    <string name="playButtonMain">PLAY MUSIC</string>
+    <string name="stopButtonMain">STOP MUSIC</string>
+    <string name="welcomeText">WELCOME</string>
+    <string name="info_about_app">This is a mobile application that simulates a tournament
+        comprised of different branches (Football, Basketball, Volleyball, etc.) between the departments of
+        engineering faculty of DEU (Computer Engineering, Machine Engineering, etc.) You can find statistics about the competitions,
+        scores, fixtures etc.</string>
+    <string name="footballButton">FOOTBALL</string>
+    <string name="basketballButton">BASKETBALL</string>
+    <string name="volleyballButton">VOLLEYBALL</string>
+    <string name="beachVolleyballButton">BEACHVOLLEYBALL</string>
+    <string name="handballButton">HANDBALL</string>
+</resources>

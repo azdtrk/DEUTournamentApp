@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.azadt.deutournament.FixtureActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="483dp"
+        android:gravity="top"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/footballButton"
+            android:layout_width="358dp"
+            android:layout_height="36dp"
+            android:text="@string/footballButton" />
+
+        <Button
+            android:id="@+id/basketballButton"
+            android:layout_width="358dp"
+            android:layout_height="36dp"
+            android:text="@string/basketballButton" />
+
+        <Button
+            android:id="@+id/volleyBallButton"
+            android:layout_width="358dp"
+            android:layout_height="36dp"
+            android:text="@string/volleyballButton" />
+
+        <Button
+            android:id="@+id/beachVolleyballButton"
+            android:layout_width="358dp"
+            android:layout_height="36dp"
+            android:text="@string/beachVolleyballButton" />
+
+        <Button
+            android:id="@+id/handballButton"
+            android:layout_width="358dp"
+            android:layout_height="36dp"
+            android:text="@string/handballButton" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="358dp"
+            android:layout_height="292dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
