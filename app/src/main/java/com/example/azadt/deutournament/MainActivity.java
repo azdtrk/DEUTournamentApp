@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    // "_" ile yazılmış değişkenler java dosyaları içinde programcının kullandığı değişkenler
+    // "_" ile yazılmiş değişkenler java dosyaları içinde programcının kullandığı değişkenler
     // "Camel" yöntemiyle adlandırılmış değişkenler program içindeki widgetların isimleri
     Button stop_button, play_button, make_competitions_button, about_app_button;
     MediaPlayer mediaPlayer;
